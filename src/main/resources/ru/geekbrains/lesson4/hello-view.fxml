@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.2" fx:controller="ru.geekbrains.lesson4.HelloController">
+    <Label fx:id="welcomeText" />
+    <TextArea fx:id="textArea" editable="false" VBox.vgrow="ALWAYS" />
+    <HBox>
+         <TextField fx:id="textField" onAction="#output" HBox.hgrow="ALWAYS" />
+         <Button fx:id="button" onAction="#output" text="Send" />
+    </HBox>
+</VBox>
